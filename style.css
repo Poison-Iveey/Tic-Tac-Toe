@@ -1,0 +1,49 @@
+body{
+  background-image: url('https://i.pinimg.com/736x/a5/d8/f9/a5d8f9f4e517a7426b15947513c5aaae.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
+}
+
+h1{
+  font-family: "Londrina Sketch", serif;
+  font-weight: 900;
+  font-style: bold;
+  font-size: 40px;
+  color: black;
+  text-align: center;
+}
+
+p{
+  font-family: "Oregano", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  color: black;
+}
+
+.game-setup{
+  font-family: "Oregano", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(3, 1fr); 
+  width: 450px; 
+  height: 450px; 
+  border: 5px solid black ;
+  justify-self: center;
+}
+
+.cell {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000; 
+  font-size: 1.5rem; 
+  background-color: #f9f9f9; 
+  cursor: pointer; 
+}
